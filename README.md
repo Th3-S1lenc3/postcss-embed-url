@@ -6,13 +6,13 @@
 
 ```css
 .foo {
-  /* Input example */
+  src: url("https://example.com/example.jpeg");
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+  src url("data:image/jpeg;charset=utf-8;base64,<base64 file content>")
 }
 ```
 

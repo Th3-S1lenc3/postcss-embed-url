@@ -2,7 +2,12 @@
   "name": "postcss-embed-url",
   "version": "0.0.0",
   "description": "PostCSS plugin to emded urls",
-  "keywords": ["postcss", "css", "postcss-plugin", "postcss-embed-url"],
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-embed-url"
+  ],
   "scripts": {
     "test": "jest --coverage && eslint ."
   },
@@ -30,7 +35,10 @@
       "node": true,
       "es6": true
     },
-    "extends": ["eslint:recommended", "plugin:jest/recommended"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:jest/recommended"
+    ],
     "rules": {
       "jest/expect-expect": "off"
     }
@@ -41,5 +49,9 @@
         "statements": 100
       }
     }
+  },
+  "dependencies": {
+    "mime-types": "^2.1.34",
+    "postcss-value-parser": "^4.1.0"
   }
 }
