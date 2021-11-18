@@ -12,7 +12,7 @@
 
 ```css
 .foo {
-  src url("data:image/jpeg;charset=utf-8;base64,<base64 file content>")
+  src: url("data:image/jpeg;charset=utf-8;base64,<base64 file content>")
 }
 ```
 
